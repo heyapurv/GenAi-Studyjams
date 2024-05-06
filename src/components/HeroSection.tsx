@@ -8,7 +8,7 @@ function HeroSection() {
   return (
    <>
     
-    <div className="sm:h-[500px] h-[450px] ">
+    <div className="sm:h-[500px] h-[530px] ">
     <Lamp/>
     </div>
     <Table/>
