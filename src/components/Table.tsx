@@ -21,10 +21,10 @@ export default function TableComponent() {
                             <tbody className="text-gray-400 divide-y">
                                 {tableData.map((item, idx) => (
                                     <tr key={idx}>
-                                        <td className="sm:pr-6 py-4 whitespace-nowrap">{item.Name}</td>
+                                        <td className="sm:pr-6 py-4 whitespace-nowrap">{item.Name}{item.Completion == "Yes"? "🏅":""}</td>
                                         <td className="pr-6 py-4 whitespace-nowrap">
                                             <span className={`sm:px-3 px-2 py-2 rounded-full font-semibold text-xs ${item.Completion == "Yes" ? "text-green-600 bg-green-50" : "text-red-600 bg-red-200"}`}>
-                                                {item.Completion == "Yes"? "Completed": "Incomplete"}
+                                                {item.Completion == "Yes"? "Completed 🎉": "Incomplete 😞"}
                                             </span>
                                         </td>
                                         
