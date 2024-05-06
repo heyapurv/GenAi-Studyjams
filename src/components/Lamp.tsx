@@ -13,7 +13,7 @@ export default function LampDemo() {
        
         <div >
 
-            <h2 className="sm:-mt-48 -mt-44 text-xl sm:text-3xl text-center bg-gradient-to-br from-slate-300 to-slate-500 bg-clip-text">Google Developer Student Clubs</h2>
+            <h2 className="sm:-mt-48 -mt-40 text-xl sm:text-3xl text-center bg-gradient-to-br from-slate-300 to-slate-500 bg-clip-text">Google Developer Student Clubs</h2>
             <p className="text-center text-xs sm:text-base bg-gradient-to-br from-slate-300 to-slate-500 bg-clip-text">Shri Sant Gajanan Maharaj College of Engineering, Shegaon</p>
         </div>
       </div>

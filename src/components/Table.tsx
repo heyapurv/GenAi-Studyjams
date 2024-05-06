@@ -3,7 +3,7 @@ import tableData from "./tableData.json";
 
 export default function TableComponent() {
     return (
-        <div className="mx-3">
+        <div className="">
             <TracingBeam className="px-6 ">
                 <div className="bg-slate-950 sm:mx-10 mx- ">
                     <div className="mt-12 relative h-max overflow-auto">
