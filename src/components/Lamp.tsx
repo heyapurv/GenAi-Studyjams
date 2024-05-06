@@ -8,12 +8,12 @@ import { LampContainer } from "./ui/lamp";
 
 export default function LampDemo() {
   return (
-    <LampContainer className="-mt-56 sm:-mt-0">
+    <LampContainer className="-mt-44 sm:-mt-0">
       <div className=" text-white flex">
        
         <div >
 
-            <h2 className="sm:-mt-48 -mt-56 text-xl sm:text-3xl text-center bg-gradient-to-br from-slate-300 to-slate-500 bg-clip-text">Google Developer Student Clubs</h2>
+            <h2 className="sm:-mt-48 -mt-52 text-xl sm:text-3xl text-center bg-gradient-to-br from-slate-300 to-slate-500 bg-clip-text">Google Developer Student Clubs</h2>
             <p className="text-center text-xs sm:text-base bg-gradient-to-br from-slate-300 to-slate-500 bg-clip-text">Shri Sant Gajanan Maharaj College of Engineering, Shegaon</p>
         </div>
       </div>
@@ -25,7 +25,7 @@ export default function LampDemo() {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="sm:mt-8 mt- bg-gradient-to-br from-slate-300 to-slate-500 sm:py-4 bg-clip-text text-center text-5xl font-bold tracking-tight text-transparent md:text-7xl -mt-10  "
+        className="sm:mt-8 mt- bg-gradient-to-br from-slate-300 to-white sm:py-4 bg-clip-text text-center text-5xl font-bold tracking-tight text-transparent md:text-7xl -mt-10  "
       >
         GEN AI <br /> STUDY JAMS
       </motion.h1>
