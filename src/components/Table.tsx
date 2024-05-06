@@ -28,9 +28,9 @@ export default function TableComponent() {
                                             </span>
                                         </td>
                                         
-                                        <td className="pr-6 py-4 whitespace-nowrap">{item.vertexAi}</td>
-                                        <td className="pr-6 py-4 whitespace-nowrap">{item.geminiAndStreamlit}</td>
-                                        <td className="pr-6 py-4 whitespace-nowrap">{item.genAiArcade}</td>
+                                        <td className="pr-6 py-4 whitespace-nowrap">{item.vertexAi == 1? "✔️":"❔"}</td>
+                                        <td className="pr-6 py-4 whitespace-nowrap">{item.geminiAndStreamlit == 1? "✔️":"❔"}</td>
+                                        <td className="pr-6 py-4 whitespace-nowrap">{item.genAiArcade == 1? "✔️":"❔"}</td>
                                     </tr>
                                 ))}
                             </tbody>
