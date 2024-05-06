@@ -1,23 +1,23 @@
-import FeaturedCourses from "@/components/FeaturedCourses";
-import Footer from "@/components/Footer";
+
 import HeroSection from "@/components/HeroSection";
-import Instructors from "@/components/Instructors";
-import TestimonialCards from "@/components/TestimonialCards";
-import UpcomingWebinars from "@/components/UpcomingWebinars";
-import WhyChooseUs from "@/components/WhyChooseUs";
+
 
 
 export default function Home() {
   return (
    <>
-    <main className="min-h-screen bg-black/[0.96] antialiased ">
+    <main className="bg-slate-950">
+     <div className="">
      <HeroSection/>
-     <FeaturedCourses/>
-     <WhyChooseUs/>
-     <TestimonialCards/>
-     <UpcomingWebinars/>
-     <Instructors/>
-     <Footer/>
+     </div>
+     <footer className=" flex justify-center text-center items-center my-10 gap-1 text-slate-300">
+     <span>Made With</span>
+     <span className="text-red-600 text-2xl ">&#10084;</span>
+     <span> by</span>
+     
+     <a href="https://www.linkedin.com/in/apurvsprofile/ " className="hover:scale-105  duration-200"><span className="text-cyan-400 "> Apurv Gore</span></a>
+     </footer>
+     
     </main>
    </>
   );
