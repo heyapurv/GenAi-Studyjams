@@ -8,7 +8,7 @@ import { LampContainer } from "./ui/lamp";
 
 export default function LampDemo() {
   return (
-    <LampContainer className="-mt-48 sm:-mt-0">
+    <LampContainer className="-mt-36 sm:-mt-0">
       <div className=" text-white flex">
        
         <div >
