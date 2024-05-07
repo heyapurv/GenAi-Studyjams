@@ -52,8 +52,14 @@ const config: Config = {
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",
         scroll:"scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+        gradient: "gradient 8s linear infinite",
       },
       keyframes: {
+        gradient: {
+          to: {
+            backgroundPosition: "var(--bg-size) 0",
+          },
+        },
         spotlight: {
           "0%": {
             opacity: '0',
@@ -75,6 +81,7 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      
     },
   },
   plugins: [addVariablesForColors, addSvgPatterns],

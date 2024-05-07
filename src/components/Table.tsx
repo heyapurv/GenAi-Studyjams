@@ -1,11 +1,31 @@
 import { TracingBeam } from "./ui/tracing-beam";
 import tableData from "./tableData.json";
+import NumberTicker from "@/components/magicui/number-ticker";
+import { cn } from "@/lib/utils";
+import AnimatedGradientText from "@/components/magicui/animated-gradient-text";
+import { ChevronRight } from "lucide-react";
 
 export default function TableComponent() {
+    let totalCompletions = tableData.filter(item => item.Completion === 'Yes').length
+   
     return (
         <div className="">
             <TracingBeam className="px-6 ">
                 <div className="bg-slate-950 sm:mx-10 mx- ">
+                    <div className="flex justify-center items-center">
+                        <AnimatedGradientText className="sm:text-2xl text-xl">
+            🎉              <hr className="mx-2 h-4 w-[1px] shrink-0 bg-gray-300" />{" "}
+                                    <span
+                                    className={cn(
+                                        `inline animate-gradient bg-gradient-to-r from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] bg-[length:var(--bg-size)_100%] bg-clip-text text-transparent`,
+                                    )}
+                                    >
+                                    GEN Ai Graduates  <NumberTicker value={totalCompletions}  className="ml-2 "/>
+                                    </span>
+                                    <ChevronRight className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
+                        </AnimatedGradientText>
+                        
+                    </div>
                     <div className="mt-12 relative h-max overflow-auto">
                         <table className="w-full table-auto text-sm ml-2 text-left">
                             <thead className="text-gray-300 font-medium border-b">
@@ -28,7 +48,7 @@ export default function TableComponent() {
                                             </span>
                                         </td>
                                         
-                                        <td className="pr-6 py-4 whitespace-nowrap">{item.vertexAi == 1? "✔️":"❔"}</td>
+                                        <td className="pr-6 py-4 whitespace-nowrap text-green-400 ">{item.vertexAi == 1? "✔️":"❔"}</td>
                                         <td className="pr-6 py-4 whitespace-nowrap">{item.geminiAndStreamlit == 1? "✔️":"❔"}</td>
                                         <td className="pr-6 py-4 whitespace-nowrap">{item.genAiArcade == 1? "✔️":"❔"}</td>
                                     </tr>
