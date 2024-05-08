@@ -4,12 +4,16 @@ import NumberTicker from "@/components/magicui/number-ticker";
 import { cn } from "@/lib/utils";
 import AnimatedGradientText from "@/components/magicui/animated-gradient-text";
 import { ChevronRight } from "lucide-react";
+import {ProgressBar} from "react-progressbar-fancy";
 
 export default function TableComponent() {
     let totalCompletions = tableData.filter(item => item.Completion === 'Yes').length
    
     return (
         <div className="">
+            <div className="md:w-96 mx-auto justify-center items-center mb-6 w-72 flex">
+                <ProgressBar score={totalCompletions} progressColor='blue'/> <h4 className="relative md:text-3xl text-2xl md:mt-3 -ml-3">🏆 </h4>
+            </div>
             <TracingBeam className="px-6 ">
                 <div className="bg-slate-950 sm:mx-10 mx- ">
                     <div className="flex justify-center items-center">
