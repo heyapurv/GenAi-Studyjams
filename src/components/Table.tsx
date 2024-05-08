@@ -11,8 +11,8 @@ export default function TableComponent() {
    
     return (
         <div className="">
-            <div className="md:w-96 mx-auto justify-center items-center mb-6 w-72 flex">
-                <ProgressBar score={totalCompletions} progressColor='blue'/> <h4 className="relative md:text-3xl text-2xl md:mt-3 -ml-3">🏆 </h4>
+            <div className="md:w-96 mx-auto  justify-center items-center mb-6 w-72 flex">
+                <ProgressBar  score={totalCompletions} progressColor='blue'  /> <h4 className="relative md:text-3xl text-2xl md:mt-3 -ml-3">🏆 </h4>
             </div>
             <TracingBeam className="px-6 ">
                 <div className="bg-slate-950 sm:mx-10 mx- ">
