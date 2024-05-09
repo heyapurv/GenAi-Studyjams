@@ -1,5 +1,5 @@
 import { TracingBeam } from "./ui/tracing-beam";
-import tableData from "./tableData.json";
+import tableData from './tableData.json'
 import NumberTicker from "@/components/magicui/number-ticker";
 import { cn } from "@/lib/utils";
 import AnimatedGradientText from "@/components/magicui/animated-gradient-text";
@@ -7,7 +7,10 @@ import { ChevronRight } from "lucide-react";
 import {ProgressBar} from "react-progressbar-fancy";
 
 export default function TableComponent() {
-    let totalCompletions = tableData.filter(item => item.Completion === 'Yes').length
+   
+
+    let totalCompletions = tableData.filter(item => item.Completion === 'Yes').length;
+    
    
     return (
         <div className="">
