@@ -1,12 +1,15 @@
 
 import HeroSection from "@/components/HeroSection";
 
+import Confetti from 'react-confetti'
 
 
 export default function Home() {
+  
   return (
    <>
     <main className="bg-slate-950">
+    
      <div className="">
      <HeroSection/>
      </div>

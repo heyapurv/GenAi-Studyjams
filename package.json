@@ -18,8 +18,10 @@
     "mini-svg-data-uri": "^1.4.4",
     "next": "14.2.2",
     "react": "^18",
+    "react-confetti": "^6.1.0",
     "react-dom": "^18",
     "react-progressbar-fancy": "^1.1.4",
+    "react-use": "^17.5.0",
     "simplex-noise": "^4.0.1",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7"
