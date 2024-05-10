@@ -16,6 +16,7 @@ export default function RootLayout({
     <html lang="en" className="bg-slate-950">
       <Head>
         <title>{genAIStudyJamsSEO.title}</title>
+        
         <link rel="icon" href="./favicon.ico" />
         <meta name="description" content={genAIStudyJamsSEO.description} />
         <meta name="keywords" content={genAIStudyJamsSEO.keywords.join(", ")} />
