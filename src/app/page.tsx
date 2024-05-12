@@ -10,15 +10,15 @@ export default function Home() {
   return (
     
    <>
-    <Confetti
-        width={width}
-        height={9400} 
-        />
+  
     <main className="bg-slate-950">
-
+    
     
      <div className="">
-     
+     <Confetti
+        width={width}
+        height={height} 
+        />
      <HeroSection/>
      </div>
      <footer className=" flex justify-center text-center items-center my-10 gap-1 text-slate-300">
