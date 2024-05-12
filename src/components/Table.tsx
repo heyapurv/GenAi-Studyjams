@@ -12,13 +12,14 @@ export default function TableComponent() {
    
 
     let totalCompletions = tableData.filter(item => item.Completion === 'Yes').length;
+    let final = totalCompletions/80*100
     
    
     return (
         <div className="">
            
             <div className="md:w-96 mx-auto  justify-center items-center mb-6 w-72 flex">
-                <ProgressBar  score={totalCompletions} progressColor='green'  /> <h4 className="relative md:text-3xl text-2xl mt-3 md:mt-2  -ml-3">🏆 </h4>
+                <ProgressBar  score={final} progressColor='green'  /> <h4 className="relative md:text-3xl text-2xl mt-3 md:mt-2  -ml-3">🏆 </h4>
             </div>
             
             <TracingBeam className="px-6 ">

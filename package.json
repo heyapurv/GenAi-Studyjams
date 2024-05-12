@@ -10,6 +10,9 @@
   },
   "dependencies": {
     "@tanstack/react-table": "^8.16.0",
+    "@tsparticles/engine": "^3.3.0",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.3.0",
     "@vercel/analytics": "^1.2.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
@@ -19,12 +22,18 @@
     "next": "14.2.2",
     "react": "^18",
     "react-confetti": "^6.1.0",
+    "react-confetti-explosion": "^2.1.2",
     "react-dom": "^18",
     "react-progressbar-fancy": "^1.1.4",
+    "react-tsparticles": "^2.12.2",
     "react-use": "^17.5.0",
     "simplex-noise": "^4.0.1",
     "tailwind-merge": "^2.3.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "tsparticles": "^3.3.0",
+    "tsparticles-confetti": "^2.12.0",
+    "tsparticles-engine": "^2.12.0",
+    "tsparticles-slim": "^2.12.0"
   },
   "devDependencies": {
     "@types/node": "^20",

@@ -1,14 +1,24 @@
-
+'use client'
 import HeroSection from "@/components/HeroSection";
-
+import React from "react";
+import useWindowSize from 'react-use/lib/useWindowSize'
+import Confetti from 'react-confetti'
 
 export default function Home() {
-  
+  const { width, height } = useWindowSize()
+
   return (
+    
    <>
+    <Confetti
+        width={width}
+        height={9400} 
+        />
     <main className="bg-slate-950">
+
     
      <div className="">
+     
      <HeroSection/>
      </div>
      <footer className=" flex justify-center text-center items-center my-10 gap-1 text-slate-300">

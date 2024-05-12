@@ -23,10 +23,10 @@ export default function RootLayout({
         {/* Add more SEO-related meta tags as needed */}
       </Head>
       <body className={inter.className}>
-        <div className="relative w-full flex items-center justify-center ">
-        {/* put navbar here */}
-        </div>
+       
+       
         {children}
+      
         <Analytics />
       </body>
     </html>
