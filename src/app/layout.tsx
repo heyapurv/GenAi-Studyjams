@@ -6,12 +6,14 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react"
 const inter = Inter({ subsets: ["latin"] });
+import Confetti from 'react-confetti'
 
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="en" className="bg-slate-950">
       <Head>
@@ -24,7 +26,7 @@ export default function RootLayout({
       </Head>
       <body className={inter.className}>
        
-       
+     
         {children}
       
         <Analytics />

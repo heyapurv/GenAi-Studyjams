@@ -5,20 +5,20 @@ import useWindowSize from 'react-use/lib/useWindowSize'
 import Confetti from 'react-confetti'
 
 export default function Home() {
-  const { width, height } = useWindowSize()
+  
 
   return (
     
    <>
-  
+     <Confetti width={1500}
+        height={1500}   />
+       
+     
     <main className="bg-slate-950">
     
     
      <div className="">
-     <Confetti
-        width={width}
-        height={height} 
-        />
+     
      <HeroSection/>
      </div>
      <footer className=" flex justify-center text-center items-center my-10 gap-1 text-slate-300">
