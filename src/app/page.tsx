@@ -1,8 +1,6 @@
 
 import HeroSection from "@/components/HeroSection";
 
-import Confetti from 'react-confetti'
-
 
 export default function Home() {
   

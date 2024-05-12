@@ -5,6 +5,8 @@ import { cn } from "@/lib/utils";
 import AnimatedGradientText from "@/components/magicui/animated-gradient-text";
 import { ChevronRight } from "lucide-react";
 import {ProgressBar} from "react-progressbar-fancy";
+import Image from "next/image";
+
 
 export default function TableComponent() {
    
@@ -14,14 +16,16 @@ export default function TableComponent() {
    
     return (
         <div className="">
+           
             <div className="md:w-96 mx-auto  justify-center items-center mb-6 w-72 flex">
                 <ProgressBar  score={totalCompletions} progressColor='green'  /> <h4 className="relative md:text-3xl text-2xl mt-3 md:mt-2  -ml-3">🏆 </h4>
             </div>
+            
             <TracingBeam className="px-6 ">
                 <div className="bg-slate-950 sm:mx-10 mx- ">
                     <div className="flex justify-center items-center">
-                        <AnimatedGradientText className="sm:text-2xl text-xl">
-            🎉              <hr className="mx-2 h-4 w-[1px] shrink-0 bg-gray-300" />{" "}
+                   
+                        <AnimatedGradientText className="sm:text-2xl text-xl"> 🎉 {}<hr className="mx-2 h-4 w-[1px] shrink-0 bg-gray-300" />{" "}
                                     <span
                                     className={cn(
                                         `inline animate-gradient bg-gradient-to-r from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] bg-[length:var(--bg-size)_100%] bg-clip-text text-transparent`,
