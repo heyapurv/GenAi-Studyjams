@@ -2,10 +2,10 @@ import { TracingBeam } from "./ui/tracing-beam";
 import tableData from './tableData.json'
 import NumberTicker from "@/components/magicui/number-ticker";
 import { cn } from "@/lib/utils";
-import AnimatedGradientText from "@/components/magicui/animated-gradient-text";
-import { ChevronRight } from "lucide-react";
 import {ProgressBar} from "react-progressbar-fancy";
-import Image from "next/image";
+import AnimatedGradientText from "./magicui/animated-gradient-text";
+
+
 
 
 export default function TableComponent() {
@@ -34,7 +34,7 @@ export default function TableComponent() {
                                     >
                                     GEN Ai Graduates  <NumberTicker value={totalCompletions}  className="ml-2 "/>
                                     </span>
-                                    <ChevronRight className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
+                                    
                         </AnimatedGradientText>
                         
                     </div>
@@ -58,9 +58,13 @@ export default function TableComponent() {
                                        
                                         <td className="sm:pr-6 py-4 whitespace-nowrap">{item.Name}{item.Completion == "Yes"? "🏅":""}</td>
                                         <td className="pr-6 py-4 whitespace-nowrap">
+                                          
                                             <span className={`sm:px-3 px-2 py-2 rounded-full font-semibold text-xs ${item.Completion == "Yes" ? "text-green-600 bg-green-50" : "text-red-600 bg-red-200"}`}>
                                                 {item.Completion == "Yes"? "Completed 🎉": "Incomplete ☹️"}
+                                                
                                             </span>
+                                           
+                                           
                                         </td>
                                         
                                         <td className="pr-6 py-4 whitespace-nowrap text-green-400 ">{item.vertexAi == 1? "✔️":"❔"}</td>
