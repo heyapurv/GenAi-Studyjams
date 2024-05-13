@@ -32,7 +32,7 @@ export default function TableComponent() {
                                         `inline animate-gradient bg-gradient-to-r from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] bg-[length:var(--bg-size)_100%] bg-clip-text text-transparent`,
                                     )}
                                     >
-                                    GEN Ai Graduates  <NumberTicker value={totalCompletions  } className="ml-2 font-bold italic mx-1"/> 
+                                    GEN AI Graduates  <NumberTicker value={totalCompletions  } className="ml-2 font-bold italic mx-1"/> 
                                     </span>
                                     <span className="relative">😉</span>
 
