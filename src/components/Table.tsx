@@ -17,7 +17,7 @@ export default function TableComponent() {
    
     return (
         <div className="">
-           
+            
             <div className="md:w-96 mx-auto  justify-center items-center mb-6 w-72 flex">
                 <ProgressBar  score={final} progressColor='green'  /> <h4 className="relative md:text-3xl text-2xl mt-3 md:mt-2  -ml-3">🏆 </h4>
             </div>
@@ -40,7 +40,9 @@ export default function TableComponent() {
                         
                     </div>
                     <div className="mt-12 relative h-max overflow-auto">
+                    <span className="relative text-red-600">*</span> <span className="line-through text-red-600 relative text-xs">Lorem, ipsum dolor.</span> <span className="relative text-white text-xs ml-1">: Indicates Ineligible Participants.</span>
                         <table className="w-full table-auto text-sm ml-2 text-left">
+                            
                             <thead className="text-gray-300 font-medium border-b">
                                 <tr>
                                     <th className="py-3 sm:pr-2">Name</th>
@@ -54,7 +56,7 @@ export default function TableComponent() {
                             <tbody className="text-gray-400 divide-y">
                             
                                 {tableData.map((item, idx) => (
-                                    <tr key={idx}>
+                                    <tr key={idx} className={`${ item.Completion  === 'No' && item.geminiAndStreamlit === 0 &&  item.genAiArcade === 0 && item.vertexAi === 0? 'line-through text-red-600 ' : ""}`}>
                                         
                                        
                                         <td className="sm:pr-6 py-4 whitespace-nowrap">{item.Name}{item.Completion == "Yes"? "🏅":""}</td>
