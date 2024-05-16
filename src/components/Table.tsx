@@ -40,7 +40,7 @@ export default function TableComponent() {
                         
                     </div>
                     <div className="mt-12 relative h-max overflow-auto">
-                    <span className="relative text-red-600">*</span> <span className="line-through text-red-600 relative text-xs">Lorem, ipsum dolor.</span> <span className="relative text-white text-xs ml-1">: Indicates Ineligible Participants.</span>
+                    <div className="flex items-center justify-center"><span className="relative text-red-600">*</span> <span className="line-through text-red-600 relative text-xs">Lorem, ipsum dolor.</span> <span className="relative text-white text-xs ml-1">: Indicates Ineligible Participants.</span></div>
                         <table className="w-full table-auto text-sm ml-2 text-left">
                             
                             <thead className="text-gray-300 font-medium border-b">
