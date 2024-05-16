@@ -56,14 +56,14 @@ export default function TableComponent() {
                             <tbody className="text-gray-400 divide-y">
                             
                                 {tableData.map((item, idx) => (
-                                    <tr key={idx} className={`${ item.Completion  === 'No' && item.geminiAndStreamlit === 0 &&  item.genAiArcade === 0 && item.vertexAi === 0? 'line-through text-red-600 ' : ""}`}>
+                                    <tr key={idx} className={`${ item.codeRedemption  === 'No' && item.geminiAndStreamlit === 0 &&  item.genAiArcade === 0 && item.vertexAi === 0? 'line-through text-red-600 ' : ""}`}>
                                         
                                        
                                         <td className="sm:pr-6 py-4 whitespace-nowrap">{item.Name}{item.Completion == "Yes"? "🏅":""}</td>
                                         <td className="pr-6 py-4 whitespace-nowrap">
                                           
                                             <span className={`sm:px-3 px-2 py-2 rounded-full font-semibold text-xs ${item.Completion == "Yes" ? "text-green-600 bg-green-50" : "text-red-600 bg-red-200"}`}>
-                                                {item.Completion == "Yes"? "Completed 🎉": "Incomplete ☹️"}
+                                                {item.Completion == "Yes"? "Completed 🎉": item.codeRedemption  === 'No' && item.geminiAndStreamlit === 0 &&  item.genAiArcade === 0 && item.vertexAi === 0? 'Not Eligible ☠️' : "Incomplete ☹️"}
                                                 
                                             </span>
                                            
