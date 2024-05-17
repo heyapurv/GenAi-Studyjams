@@ -17,8 +17,8 @@ export default function TableComponent() {
     return (
         <div className="">
             
-            <div className="flex justify-center items-center text-cyan-400">
-            <FlipWords words={words} className="md:text-4xl text-2xl "/>
+            <div className="flex justify-center items-center text-cyan-400 ">
+            <FlipWords words={words} className="md:text-4xl text-2xl  "/>
             </div>
             <div className="md:w-96 mx-auto  justify-center items-center mb-6 w-72 flex">
                 <ProgressBar  score={final} progressColor='green'  /> <h4 className="relative md:text-3xl text-2xl mt-3 md:mt-2  -ml-3">🏆 </h4>
