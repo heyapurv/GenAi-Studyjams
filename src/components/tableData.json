@@ -462,6 +462,17 @@
     "codeRedemption": "Yes"
   },
   {
+    "Name": "Pavan Prabhakar Bharambe",
+    "User Email": "bharambepavan800@gmail.com",
+    "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/e59760aa-0407-4743-8317-e4c34e707275",
+    "Profile URL Status": "All Good",
+    "vertexAi": 1,
+    "geminiAndStreamlit": 1,
+    "genAiArcade": 1,
+    "Completion": "Yes",
+    "codeRedemption": "Yes"
+  },
+  {
     "Name": "Piyush Agroya",
     "User Email": "piyushagroya.256@gmail.com",
     "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/b21190ba-513f-4d14-b727-4938ff9a99c2",
@@ -553,6 +564,17 @@
     "Name": "Rujuta Ravindra Deshmukh",
     "User Email": "missrujuta@gmail.com",
     "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/03a4974a-60c0-4b85-a984-1baeb192281c",
+    "Profile URL Status": "All Good",
+    "vertexAi": 1,
+    "geminiAndStreamlit": 1,
+    "genAiArcade": 1,
+    "Completion": "Yes",
+    "codeRedemption": "Yes"
+  },
+  {
+    "Name": "Rushikesh Ananta Borkar",
+    "User Email": "borkarananta028@gmail.com",
+    "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/34919d53-e81b-4a2d-878e-414299418fd1",
     "Profile URL Status": "All Good",
     "vertexAi": 1,
     "geminiAndStreamlit": 1,
@@ -674,6 +696,17 @@
     "Name": "Sejal Hemant Kagdelwar",
     "User Email": "sejalkagdelwar2@gmail.com",
     "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/089e7858-fc09-4e9e-a476-eca29344284c",
+    "Profile URL Status": "All Good",
+    "vertexAi": 1,
+    "geminiAndStreamlit": 1,
+    "genAiArcade": 1,
+    "Completion": "Yes",
+    "codeRedemption": "Yes"
+  },
+  {
+    "Name": "Shreya Prashant Kale",
+    "User Email": "shreyapkale72@gmail.com",
+    "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/ed878cf8-05b8-4858-8326-0af315eeb42b",
     "Profile URL Status": "All Good",
     "vertexAi": 1,
     "geminiAndStreamlit": 1,
@@ -891,29 +924,7 @@
     "codeRedemption": "Yes"
   },
   {
-    "Name": "Pavan Prabhakar Bharambe",
-    "User Email": "bharambepavan800@gmail.com",
-    "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/e59760aa-0407-4743-8317-e4c34e707275",
-    "Profile URL Status": "All Good",
-    "vertexAi": 1,
-    "geminiAndStreamlit": 0,
-    "genAiArcade": 1,
-    "Completion": "No",
-    "codeRedemption": "Yes"
-  },
-  {
-    "Name": "Shreya Prashant Kale",
-    "User Email": "shreyapkale72@gmail.com",
-    "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/ed878cf8-05b8-4858-8326-0af315eeb42b",
-    "Profile URL Status": "All Good",
-    "vertexAi": 1,
-    "geminiAndStreamlit": 0,
-    "genAiArcade": 1,
-    "Completion": "No",
-    "codeRedemption": "Yes"
-  },
-  {
-    "Name": "Dnyaneshwari Rajkumar Mhaisne",
+    "Name": "Dnyaneshwari Mhaisne",
     "User Email": "dnyaneshwarimhaisne06@gmail.com",
     "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/2d9dc0b4-c724-49a5-b747-2133f084a9b5",
     "Profile URL Status": "All Good",
@@ -944,17 +955,6 @@
     "genAiArcade": 0,
     "Completion": "No",
     "codeRedemption": "No"
-  },
-  {
-    "Name": "Rushikesh Ananta Borkar",
-    "User Email": "borkarananta028@gmail.com",
-    "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/34919d53-e81b-4a2d-878e-414299418fd1",
-    "Profile URL Status": "All Good",
-    "vertexAi": 1,
-    "geminiAndStreamlit": 0,
-    "genAiArcade": 0,
-    "Completion": "No",
-    "codeRedemption": "Yes"
   },
   {
     "Name": "Shreya Ravindra Katole",
@@ -1077,7 +1077,17 @@
     "Completion": "No",
     "codeRedemption": "No"
   },
-  
+  {
+    "Name": "Apurv Rajesh Gore",
+    "User Email": "deskofapurv@gmail.com",
+    "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/e1e173f9-0f7d-4a32-9e74-ed6d3235afbb",
+    "Profile URL Status": "All Good",
+    "vertexAi": 0,
+    "geminiAndStreamlit": 0,
+    "genAiArcade": 0,
+    "Completion": "No",
+    "codeRedemption": "Yes"
+  },
   {
     "Name": "Arjun Warkhede",
     "User Email": "arjunwarhade48@gmail.com",
@@ -1288,7 +1298,7 @@
     "codeRedemption": "Yes"
   },
   {
-    "Name": "Krushnagopal Dattatraya Agnihotri",
+    "Name": "Krushnagopal Agnihotri",
     "User Email": "krushnagopalagnihotri@gmail.com",
     "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/3927a7bb-5e1a-4e53-b882-ed05e6d0c1e6",
     "Profile URL Status": "All Good",
@@ -1450,7 +1460,7 @@
     "geminiAndStreamlit": 0,
     "genAiArcade": 0,
     "Completion": "No",
-    "codeRedemption": "No"
+    "codeRedemption": "Yes"
   },
   {
     "Name": "Prem Ramesh Suryawanshi",
@@ -1560,7 +1570,7 @@
     "geminiAndStreamlit": 0,
     "genAiArcade": 0,
     "Completion": "No",
-    "codeRedemption": "No"
+    "codeRedemption": "Yes"
   },
   {
     "Name": "shivani kailas jangle",
@@ -1706,7 +1716,7 @@
     "codeRedemption": "Yes"
   },
   {
-    "Name": "Vaishnavi Dnyaneshwar Gayakwad",
+    "Name": "Vaishnavi Gayakwad",
     "User Email": "dgakwad8830@mail.com",
     "Google Cloud Skills Boost Profile URL": "https://www.cloudskillsboost.google/public_profiles/aa2c569c-73e3-4869-aeda-8b4697ddf1e7",
     "Profile URL Status": "All Good",

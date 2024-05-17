@@ -4,8 +4,7 @@ import NumberTicker from "@/components/magicui/number-ticker";
 import { cn } from "@/lib/utils";
 import {ProgressBar} from "react-progressbar-fancy";
 import AnimatedGradientText from "./magicui/animated-gradient-text";
-
-
+import { FlipWords } from "./ui/flip-words";
 
 
 export default function TableComponent() {
@@ -13,11 +12,14 @@ export default function TableComponent() {
 
     let totalCompletions = tableData.filter(item => item.Completion === 'Yes').length;
     let final = totalCompletions/80*100
-    
+    const words = ['Tier', '1', 'Achieved' ]
    
     return (
         <div className="">
             
+            <div className="flex justify-center items-center text-cyan-400">
+            <FlipWords words={words} className="md:text-4xl text-2xl "/>
+            </div>
             <div className="md:w-96 mx-auto  justify-center items-center mb-6 w-72 flex">
                 <ProgressBar  score={final} progressColor='green'  /> <h4 className="relative md:text-3xl text-2xl mt-3 md:mt-2  -ml-3">🏆 </h4>
             </div>
@@ -34,13 +36,13 @@ export default function TableComponent() {
                                     >
                                     GEN AI Graduates  <NumberTicker value={totalCompletions  } className="ml-2 font-bold  mx-1"/> 
                                     </span>
-                                   
+                                   <span>🥳</span>
 
                         </AnimatedGradientText>
                         
                     </div>
                     <div className="mt-12 relative h-max overflow-auto">
-                    <div className="flex items-center justify-center"><span className="relative text-red-600">*</span> <span className="line-through text-red-600 relative text-xs">Lorem, ipsum dolor.</span> <span className="relative text-white text-xs ml-1">: Indicates Ineligible Participants.</span></div>
+                    <div className=""><span className="relative text-red-600">*</span> <span className="line-through text-red-600 relative text-xs">Lorem, ipsum dolor.</span> <span className="relative text-white text-xs ml-1">: Indicates Ineligible Participants.</span></div>
                         <table className="w-full table-auto text-sm ml-2 text-left">
                             
                             <thead className="text-gray-300 font-medium border-b">
