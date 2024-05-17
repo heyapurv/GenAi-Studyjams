@@ -1,12 +1,12 @@
 'use client'
 import HeroSection from "@/components/HeroSection";
-import React from "react";
-import useWindowSize from "react-use/lib/useWindowSize";
+import React, { useEffect, useState } from "react";
+import useWindowSize from 'react-use/lib/useWindowSize'
 import Confetti from 'react-confetti'
 
 export default function Home() {
-  const { width, height } = useWindowSize();
-
+    
+    const { width, height } = useWindowSize()
   return (
     
    <>
@@ -14,7 +14,7 @@ export default function Home() {
        
      
     <main className="bg-slate-950">
-    <Confetti width={window.innerWidth} height={window.innerHeight} recycle={false}  />
+    <Confetti width={width} height={height} recycle={false}  />
     {/* <Confetti className="hidden md:block" width={1500}
         height={1500}   /> */}
     
